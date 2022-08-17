@@ -25,13 +25,13 @@ a {
   text-decoration: none;
 }
 
-/* -------------- Navbar style ------------ */
+
 .header {
   height: 100vh;
   background-color: #636c79;
 }
 
-/* ------ Navbar ------- */
+/* navigation */
 nav {
   padding: var(--defaultPadding);
   display: flex;
@@ -90,7 +90,7 @@ nav {
   background-color: transparent;
 }
 
-/* ------ Home ------- */
+/* Home */
 
 #home {
   padding: var(--defaultPadding);
@@ -140,13 +140,13 @@ nav {
   color: #ffffff;
   border: none;
 }
-/* ------------------------------- */
-/* -------------- Body --------------- */
+
+/* BODY */
 .body {
   background-color: #fbfbfb;
 }
 
-/* -------------- About ------------- */
+
 #about {
   padding: var(--defaultPadding);
   margin: 40px 0;
@@ -156,8 +156,7 @@ nav {
   font-size: 40px;
   color: var(--dark);
 }
-/* ------------------------------ */
-/* ----------- Pages ------------ */
+
 
 #pages {
   padding: var(--defaultPadding);
@@ -196,8 +195,7 @@ nav {
 .page-img > img {
   width: 100%;
 }
-/* ------------------------------- */
-/* ------------ Agent ------------- */
+
 
 #agent {
   padding: var(--defaultPadding);
@@ -256,8 +254,7 @@ nav {
   background-size: cover;
 }
 
-/* ------------------------------------- */
-/* ---------- Blog ------------- */
+
 
 #blog {
   padding: var(--defaultPadding);
@@ -276,8 +273,7 @@ nav {
   color: var(--agentPara);
 }
 
-/* ------------------------------------ */
-/* ------------- Subcribe --------------- */
+
 
 #subcribe {
   padding: var(--defaultPadding);
@@ -333,3 +329,8 @@ nav {
   margin: 50px;
 }
 
+.list-item:hover {
+
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+  border-radius: 30px;
+}

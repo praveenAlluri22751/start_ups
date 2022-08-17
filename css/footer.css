@@ -65,25 +65,6 @@ a {
   color: #ffffff;
 }
 
-/* Social media icon styling  */
-
-/* .fa-facebook-f:before {
-  background-color: #4267b2;
-}
-.fa-twitter:before {
-  background-color: #1ea1f1;
-}
-.fa-instagram:before {
-  background-color: #e12f6d;
-}
-.fa-linkedin-in:before {
-  background-color: #0277b5;
-}
-.fa-youtube:before {
-  background-color: #ff2300;
-} */
-
-/* link-boxes styling  */
 .link-boxes {
   display: flex;
   flex-direction: row;
@@ -111,3 +92,5 @@ a {
 .box > li > a:hover {
   text-decoration: underline;
 }
+
+
